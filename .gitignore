@@ -1,0 +1,55 @@
+# Node modules
+**/node_modules/
+node_modules/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+config/deployment-config.env
+
+# Build outputs
+dist/
+build/
+*.zip
+*.tar.gz
+
+# Azure
+.azure/
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*.backup
+
+# Deployment artifacts
+function-deploy-*.zip
+deploy-*.zip
+
